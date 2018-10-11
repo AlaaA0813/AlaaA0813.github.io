@@ -1,19 +1,32 @@
 html {
   background-color: #E3E2E0;
   font-size: 10pt;
+  coor: #424242;
 }
 
 body {
   padding: 1rem;
   margin: 5px auto;
   width: 900px;
-  background-color: #C4C4C2;
+  background-color: #FAFAF8;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+a:hover {
+  background-color: #FAFAF8;
+  transition: all 0.3s ease-in-out;
 }
 
 a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #424242;
+}
 header h1 {
   box-sizing: content-box;
   display: flex;
@@ -30,11 +43,21 @@ header nav {
   padding-bottom: 1rem;
 }
 
+nav a {
+  box-shadow: 5px 3px 3px #424242;
+  padding: 5px 10%;
+  background-color: #E3E2E0;
+}
+
 .main {
   border-bottom: 1px solid #8F8E8D;
 }
 
-  .about {
+.main a {
+  box-shadow: 10px 5px 5px #424242;
+}
+
+.about {
   background-color: #E3E2E0;
   margin-top: 2rem;
   display: inline-block;
@@ -173,6 +196,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   width: 500px;
   margin: 50px auto 100px auto;
   z-index: 10;
+  box-shadow: 3px 2px 2px #424242;
 }
 
 input {
