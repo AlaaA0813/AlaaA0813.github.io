@@ -122,11 +122,10 @@ section:after {
 }
 
 .footer {
-  position: absolute;
   border-radius: 5px;
   background-color: #E3E2E0;
   bottom: 0px;
-  width: 71%;
+  width: 100%;
 }
 
 /* Message Me form */
