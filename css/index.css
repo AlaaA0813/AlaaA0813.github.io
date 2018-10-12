@@ -94,6 +94,12 @@ nav a {
   padding: 5px;
 }
 
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .contact {
   text-align: center;
   margin: 0;
@@ -119,14 +125,8 @@ nav a {
   position: absolute;
   border-radius: 5px;
   background-color: #E3E2E0;
-  bottom: 2rem;
-  width: 900px;
-}
-
-section:after {
-  content: "";
-  display: table;
-  clear: both;
+  bottom: 0px;
+  width: 71%;
 }
 
 /* Message Me form */
@@ -207,7 +207,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 #form {
   position: relative;
   width: 500px;
-  margin: 25px auto 75px auto;
+  margin: 25px auto 50px auto;
   z-index: 10;
   box-shadow: 3px 2px 2px #424242;
 }
