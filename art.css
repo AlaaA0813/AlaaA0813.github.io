@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
+
 html {
   background-color: #E3E2E0;
   font-family: "Lato", sans-serif;
@@ -58,4 +59,8 @@ footer {
   background-color: #E3E2E0;
   bottom: 0px;
   width: 100%;
+}
+
+.elder {
+  transform: rotate(90deg);
 }
