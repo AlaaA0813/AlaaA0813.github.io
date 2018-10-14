@@ -19,7 +19,8 @@ li {
   list-style: none;
   display: inline-block;
 }
-a:hover {
+
+nav a:hover {
   background-color: #FAFAF8;
   transition: all 0.3s ease-in-out;
 }
@@ -32,6 +33,7 @@ a {
 a:visited {
   color: #424242;
 }
+
 header h1 {
   box-sizing: content-box;
   display: flex;
