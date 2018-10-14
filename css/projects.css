@@ -23,6 +23,11 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+main a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #E3E2E0;
+}
+
 a {
   text-decoration: none;
   color: #424242;
