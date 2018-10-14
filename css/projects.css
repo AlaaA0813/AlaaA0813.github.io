@@ -59,8 +59,9 @@ nav a {
 }
 
 footer {
+  position: absolute;
   border-radius: 5px;
-  background-color: #E3E2E0;
+  background-color: #FAFAF8;
   bottom: 0px;
-  width: 100%;
+  width: 900px;
 }
