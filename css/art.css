@@ -19,6 +19,7 @@ li {
   list-style: none;
   display: inline-block;
 }
+
 a:hover {
   background-color: #FAFAF8;
   transition: all 0.3s ease-in-out;
@@ -27,11 +28,11 @@ a:hover {
 a {
   text-decoration: none;
   color: #424242;
-}
-
+  
 a:visited {
   color: #424242;
 }
+
 header h1 {
   box-sizing: content-box;
   display: flex;
@@ -59,4 +60,9 @@ footer {
   background-color: #E3E2E0;
   bottom: 0px;
   width: 100%;
+}
+
+main a:hover {
+  color: #E3E2E0;
+  transition: all 0.3s ease-in-out;
 }
